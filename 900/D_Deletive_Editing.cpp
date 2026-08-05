@@ -1,55 +1,38 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
+    int tc;
+    cin >> tc;
 
-    while (t--) {
+    while (tc--) {
         string s, t;
         cin >> s >> t;
 
-        int n = s.size();
-        int m = t.size();
-
-        vector<int> freq(26, 0);
-
-        for (char c : s) {
-            freq[c - 'A']++;
+        vector<int> need(26, 0);
+        for (char c : t) {
+            need[c - 'A']++;
         }
 
-        int i = n - 1;
-        int j = m - 1;
+        int j = t.size() - 1;
+        bool ok = true;
 
-        bool flag = true;
-
-        while (i >= 0 && j >= 0) {
-
-            if (s[i] == t[j]) {
-                freq[s[i] - 'A']--;
-                i--;
+        for (int i = s.size() - 1; i >= 0; i--) {
+            if (j >= 0 && s[i] == t[j]) {
+                need[s[i] - 'A']--;
                 j--;
             }
             else {
-                freq[s[i] - 'A']--;
-
-                if (freq[s[i] - 'A'] > 0) {
-                    i--;
-                }
-                else {
-                    flag = false;
+                if (need[s[i] - 'A'] > 0) {
+                    ok = false;
                     break;
                 }
             }
         }
 
-        if (j >= 0)
-            flag = false;
+        if (j >= 0) ok = false;
 
-        if (flag)
-            cout << "YES\n";
-        else
-            cout << "NO\n";
+        cout << (ok ? "YES" : "NO") << '\n';
     }
 
     return 0;
