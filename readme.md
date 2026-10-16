@@ -16,8 +16,10 @@ I am currently following the TLE Eliminators CP-31 sheet and solving problems re
 ## 📂 Structure
 Problems are organized based on difficulty rating:
 
-- `800/` → Easy problems
-- (More folders will be added as I progress)
+- `800/` → CP-31 800-rated problems
+- `900/` → CP-31 900-rated problems
+- `1000/` → CP-31 1000-rated problems
+- `contest/` → solutions from contests that are not on the CP-31 sheet
 
 ---
 
