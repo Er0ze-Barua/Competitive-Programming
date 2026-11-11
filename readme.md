@@ -1,40 +1,26 @@
 # 🚀 Competitive Programming Journey
 
 ## 📌 About
-This repository contains my solutions to Codeforces problems.
+Tracking my daily grind through Codeforces and the TLE Eliminators CP-31 sheet. This repo serves as my proof of work, debugging log, and a strict reminder of how many times a missing `long long` cost me an Accepted verdict.
 
-I am currently following the TLE Eliminators CP-31 sheet and solving problems regularly.
-
----
-
-## 📊 Progress
-- Started CP recently
-- Practicing consistently
+🔗 **Codeforces Profile:** [Er0ze](https://codeforces.com/profile/Er0ze) | **Highest Rank Achieved:** Pupil (1210)
 
 ---
 
-## 📂 Structure
-Problems are organized based on difficulty rating:
-
-- `800/` → CP-31 800-rated problems
-- `900/` → CP-31 900-rated problems
-- `1000/` → CP-31 1000-rated problems
-- `contest/` → solutions from contests that are not on the CP-31 sheet
-
----
-
-## 🧠 Approach
-- Try solving problems independently
-- Debug and optimize
-- If stuck, take hints or refer to solutions
-- Re-implement and understand logic
+## 📊 Progress Tracker
+Climbing the rating ladder, one problem at a time:
+- [x] `800/` → CP-31 800-rated problems
+- [x] `900/` → CP-31 900-rated problems
+- [x] `1000/` → CP-31 1000-rated problems
+- [ ] `1100/` → CP-31 1100-rated problems (Current Target)
 
 ---
 
-## 🎯 Goal
-To improve problem-solving skills and prepare for technical interviews.
+## 🧠 Approach & Workflow
+- **Language:** C++ for competitive programming and DSA. 
+- **Execution:** Solve independently → Debug the WA → Check the editorial only when completely stuck → Re-implement from scratch to build muscle memory.
 
 ---
 
-## ⚙️ Language Used
-- C++
+## 🎯 The End Game
+Forging unbreakable problem-solving skills with the goal of translating algorithmic efficiency into highly optimized backend architectures.
